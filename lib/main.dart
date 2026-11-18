@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:groceries_app/feature/auth_screen/view/login_screen.dart';
-import 'package:groceries_app/feature/auth_screen/view/signup_screen.dart';
-
 void main() {
   runApp(MainScreen());
 }
