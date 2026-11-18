@@ -1,9 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:groceries_app/core/button_widget.dart';
+import 'package:groceries_app/feature/auth_screen/view/login_screen.dart';
 import 'package:groceries_app/feature/auth_screen/widget/custom_textfield.dart';
 
-class SignupScreen extends StatelessWidget {
+class SignupScreen extends StatefulWidget {
   const SignupScreen({super.key});
+
+  @override
+  State<SignupScreen> createState() => _SignupScreenState();
+}
+
+class _SignupScreenState extends State<SignupScreen> {
+  bool isAgreed = false;
 
   @override
   Widget build(BuildContext context) {
@@ -73,8 +81,12 @@ class SignupScreen extends StatelessWidget {
                     width: 28,
                     height: 28,
                     child: Checkbox(
-                      value: true,
-                      onChanged: null, 
+                      value: isAgreed,
+                      onChanged: (bool? value) {
+                        setState(() {
+                          isAgreed = value ?? false;
+                        });
+                      },
                       activeColor: const Color(0xFF42A879),
                       checkColor: Colors.white,
                       side: const BorderSide(color: Colors.grey),
@@ -136,7 +148,14 @@ class SignupScreen extends StatelessWidget {
                           alignment: PlaceholderAlignment.baseline,
                           baseline: TextBaseline.alphabetic,
                           child: GestureDetector(
-                            onTap: () {},
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => const LoginScreen(),
+                                ),
+                              );
+                            },
                             child: Text(
                               ' Login',
                               style: TextStyle(

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:groceries_app/core/button_widget.dart';
+import 'package:groceries_app/feature/auth_screen/view/signup_screen.dart';
 import 'package:groceries_app/feature/auth_screen/widget/custom_textfield.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -89,7 +90,14 @@ class LoginScreen extends StatelessWidget {
                           alignment: PlaceholderAlignment.baseline,
                           baseline: TextBaseline.alphabetic,
                           child: GestureDetector(
-                            onTap: () {},
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => const SignupScreen(),
+                                ),
+                              );
+                            },
                             child: Text(
                               ' Singup',
                               style: TextStyle(

@@ -21,7 +21,7 @@ class MainScreen extends StatelessWidget {
         right: false,
         bottom: false,
         maintainBottomViewPadding : false,
-        child: SignupScreen(),
+        child: LoginScreen(),
       ),
     );
   }
