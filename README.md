@@ -5,6 +5,7 @@ repository currently includes the app's authentication screens: **Log
 In** and **Sign Up**.
 
 ## 📱 App Screens
+
 ![alt text](image.png)
 ![alt text](image-2.png)
 The following section presents the two authentication screens. Replace
@@ -20,12 +21,11 @@ visibility control. - **Forgot Password?** option. - **Log In**
 button. - Navigation link to the Sign Up screen for users who do not
 have an account.
 
-```{=html}
-
 ![Log In Screen](assets/screenshots/login.png)
 
-### 2. Sign Up Screen
+### 2. Home Screen
 
+![alt text](image-1.png)
 
 The Sign Up screen allows new users to create an account by entering
 their basic details.
@@ -35,16 +35,11 @@ Password input field with a visibility control. - Terms of Service and
 Privacy Policy notice with a checkbox. - **Sign Up** button. -
 Navigation link back to the Log In screen for existing users.
 
-```{=html}
-
-
-![alt text](image-1.png)
-
 ## 🧰 Built With
 
--   [Flutter](https://flutter.dev/) --- UI toolkit for building
+- [Flutter](https://flutter.dev/) --- UI toolkit for building
     cross-platform applications.
--   [Dart](https://dart.dev/) --- Programming language used by Flutter.
+- [Dart](https://dart.dev/) --- Programming language used by Flutter.
 
 ## 🚀 Getting Started
 
@@ -54,34 +49,34 @@ Follow these steps to run the project locally.
 
 Make sure you have the following installed:
 
--   [Flutter SDK](https://docs.flutter.dev/get-started/install)
--   [Dart SDK](https://dart.dev/get-dart) (included with Flutter)
--   An IDE such as [Android
+- [Flutter SDK](https://docs.flutter.dev/get-started/install)
+- [Dart SDK](https://dart.dev/get-dart) (included with Flutter)
+- An IDE such as [Android
     Studio](https://developer.android.com/studio) or [Visual Studio
     Code](https://code.visualstudio.com/)
--   An emulator, simulator, or physical device
+- An emulator, simulator, or physical device
 
 ### Installation
 
-1.  Clone this repository:
+1. Clone this repository:
 
     ``` bash
     git clone <YOUR_REPOSITORY_URL>
     ```
 
-2.  Open the project folder:
+2. Open the project folder:
 
     ``` bash
     cd groceries_app
     ```
 
-3.  Install the project dependencies:
+3. Install the project dependencies:
 
     ``` bash
     flutter pub get
     ```
 
-4.  Run the application:
+4. Run the application:
 
     ``` bash
     flutter run

@@ -59,7 +59,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets\Image\Group.png
+    - assets\Image\
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
@@ -74,7 +74,7 @@ flutter:
   # example:
   # fonts:
   #   - family: Schyler
-  #     fonts:
+      # fonts:
   #       - asset: fonts/Schyler-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:groceries_app/feature/auth_screen/widget/button_widget.dart';
 import 'package:groceries_app/feature/auth_screen/view/signup_screen.dart';
 import 'package:groceries_app/feature/auth_screen/widget/custom_textfield.dart';
+import 'package:groceries_app/feature/main/bottom_nav_bar.dart';
 
 class LoginScreen extends StatelessWidget {
   const new({super.key});
@@ -19,7 +20,7 @@ class LoginScreen extends StatelessWidget {
             children: [
               Align(
                 alignment: Alignment.center,
-                child: Image.asset('assets/Image/Group.png'),
+                child: Image.asset('assets/Image/logo.png'),
               ),
               SizedBox(height: 100.21),
               Text(
@@ -71,7 +72,15 @@ class LoginScreen extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 30),
-              ButtonWidget(text: "Log In"),
+              ButtonWidget(
+                text: "Log In",
+                ontap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => MainNavScreen()),
+                  );
+                },
+              ),
               SizedBox(height: 25),
               Align(
                 alignment: Alignment.center,

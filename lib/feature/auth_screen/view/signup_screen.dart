@@ -26,7 +26,7 @@ class _SignupScreenState extends State<SignupScreen> {
             children: [
               Align(
                 alignment: Alignment.center,
-                child: Image.asset('assets/Image/Group.png'),
+                child: Image.asset('assets/Image/logo.png'),
               ),
               SizedBox(height: 100.21),
               Text(
