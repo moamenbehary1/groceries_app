@@ -6,30 +6,26 @@ In** and **Sign Up**.
 
 ## 📱 App Screens
 
+- LOGIN
 ![alt text](image.png)
-![alt text](image-2.png)
-The following section presents the two authentication screens. Replace
-each image placeholder with the path to your own screenshot.
-
-### 1. Log In Screen
-
-The Log In screen provides returning users with a simple way to access
-their accounts.
-
-**Screen elements:** - Email input field. - Password input field with a
-visibility control. - **Forgot Password?** option. - **Log In**
-button. - Navigation link to the Sign Up screen for users who do not
-have an account.
-
-![Log In Screen](assets/screenshots/login.png)
-
-### 2. Home Screen
-
+- SIGNUP
 ![alt text](image-1.png)
-
-The Sign Up screen allows new users to create an account by entering
-their basic details.
-
+- HOME
+![alt text](image-2.png)
+- ITEM DET
+![alt text](image-3.png)
+- EXPLORE
+![alt text](image-4.png)
+- SLET ITEM IN EXP
+![alt text](image-5.png)
+- FILTER SCREEN
+![alt text](image-6.png)
+- CART SCREEN
+![alt text](image-7.png)
+- FAV SCREEN  
+![alt text](image-8.png)
+- PROFILE SCREEN
+![alt text](image-9.png)
 **Screen elements:** - Username input field. - Email input field. -
 Password input field with a visibility control. - Terms of Service and
 Privacy Policy notice with a checkbox. - **Sign Up** button. -
