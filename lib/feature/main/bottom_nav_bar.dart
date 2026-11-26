@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:groceries_app/feature/account/view/account_screen.dart';
+import 'package:groceries_app/feature/cart/view/cart_screen.dart';
+import 'package:groceries_app/feature/explore/view/explore.dart';
+import 'package:groceries_app/feature/favourite/view/favourite_screen.dart';
 import 'package:groceries_app/feature/home/view/home_screen.dart';
 import 'package:groceries_app/feature/main/custom_nav_bar.dart';
 
@@ -14,10 +18,10 @@ class _MainNavScreenState extends State<MainNavScreen> {
 
   final List<Widget> _screens = [
     HomeScreen(),
-    const Center(child: Text('Explore')),
-    const Center(child: Text('Cart')),
-    const Center(child: Text('Favourite')),
-    const Center(child: Text('Account')),
+    ExploreScreen(),
+    CartScreen(),
+    FavouriteScreen(),
+    AccountScreen(),
   ];
 
   @override

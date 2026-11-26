@@ -20,6 +20,7 @@ class Itemfil extends StatelessWidget {
               fontFamily: "Gilroy",
             ),
           ),
+          // Icon(Icons.),
           Text(
             "See All",
             style: TextStyle(
